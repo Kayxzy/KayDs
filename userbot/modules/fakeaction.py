@@ -18,7 +18,7 @@ from userbot.events import man_cmd
 @man_cmd(
     pattern="f(typing|audio|contact|document|game|location|photo|round|sticker|video) ?(.*)",
 )
-async def _(e):
+async def fake(e):
     act = e.pattern_match.group(1)
     t = e.pattern_match.group(2)
     if act in ["audio", "round", "video"]:
