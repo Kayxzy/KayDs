@@ -23,6 +23,7 @@ from userbot import (
     bot,
 )
 
+from userbot.modules import ALL_MODULES
 
 def man_cmd(
     pattern: str = None,
